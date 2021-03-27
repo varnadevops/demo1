@@ -25,7 +25,7 @@ pipeline {
       }
     }
 
-    // Static Code Analysis
+    /// Static Code Analysis
     stage('Static Code Analysis') {
       agent {
         label 'testgroup'
